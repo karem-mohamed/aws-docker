@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: users
     ports:
-      - "8000:6000"
+      - "1337:1337"
     env_file: .env
     # environment:
     #   - PORT=6000

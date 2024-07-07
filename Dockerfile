@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json .
 RUN npm i 
 COPY . .
-EXPOSE 6000
+EXPOSE 1337
 CMD ["npm","start"]
