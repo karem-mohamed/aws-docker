@@ -14,6 +14,6 @@ services:
     # command: npm start
 
     # Add this scale option
-    deploy:
-      mode: replicated
-      replicas: 3
+    # deploy:
+    #   mode: replicated
+    #   replicas: 3
