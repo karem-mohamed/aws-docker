@@ -12,3 +12,8 @@ services:
     #   - PORT=6000
     #   - NODE_ENV=staging
     # command: npm start
+
+    # Add this scale option
+    deploy:
+      mode: replicated
+      replicas: 3
