@@ -30,4 +30,4 @@ jobs:
           echo PORT=${{secrets.PORT}} >> .env
           echo NODE_ENV=${{secrets.NODE_ENV}} >> .env
           cat .env
-      - run: docker-compose up --scale users-app=3 -d
+      - run: sudo docker-compose up --scale users-app=3 -d
